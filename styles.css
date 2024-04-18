@@ -1,0 +1,48 @@
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 128, 255, 0.5);
+    font-weight: lighter;
+}
+h1 {
+    text-align: center;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+}
+
+.user, .computer {
+    flex-grow: 0.1;
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rps {
+    display: flex;
+    justify-content: center;
+}
+
+.user .rps img {
+    cursor: pointer;
+}
+
+img {
+    width: 15%;
+    height: auto;
+    margin-right: 30px;
+}
+
+.restart{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
